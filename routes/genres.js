@@ -1,41 +1,42 @@
-const mongoose = require("mongoose");
-const express = require("express");
+const mongoose = require('mongoose');
+const express = require('express');
 const router = express.Router();
-const Joi = require("@hapi/joi");
+const Joi = require('@hapi/joi');
 
-const { func } = require("@hapi/joi");
+const { func } = require('@hapi/joi');
 
 const Genre = mongoose.model(
-  "Genre",
+  'Genre',
   new mongoose.Schema({
     name: {
       type: String,
       required: true,
       minlength: 3,
+      maxlength: 50,
     },
   })
 );
 
 // API: Get all genres
-router.get("/", async (req, res) => {
-  const genres = await Genre.find().sort("name");
+router.get('/', async (req, res) => {
+  const genres = await Genre.find().sort('name');
   res.send(genres);
 });
 
 // API: Get one genre
-router.get("/:id", async (req, res) => {
+router.get('/:id', async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
-    return res.status(400).send("Given genre ID is not valid!");
+    return res.status(400).send('Given genre ID is not valid!');
   }
 
   const genre = await Genre.findById(req.params.id);
-  if (!genre) res.status(404).send("The genre with given ID was not found");
+  if (!genre) res.status(404).send('The genre with given ID was not found');
 
   res.send(genre);
 });
 
 // API: Add new genre (POST)
-router.post("/", async (req, res) => {
+router.post('/', async (req, res) => {
   const { error } = validateGenre(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
@@ -50,9 +51,9 @@ router.post("/", async (req, res) => {
 });
 
 // API: Change one genre (PUT)
-router.put("/:id", async (req, res) => {
+router.put('/:id', async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
-    return res.status(400).send("Given genre ID is not valid!");
+    return res.status(400).send('Given genre ID is not valid!');
   }
 
   const { error } = validateGenre(req.body);
@@ -65,21 +66,21 @@ router.put("/:id", async (req, res) => {
   );
 
   if (!genre)
-    return res.status(404).send("The genre with given ID was not found");
+    return res.status(404).send('The genre with given ID was not found');
 
   res.send(genre);
 });
 
 // API: Delete one genre (DELETE)
-router.delete("/:id", async (req, res) => {
+router.delete('/:id', async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
-    return res.status(400).send("Given genre ID is not valid!");
+    return res.status(400).send('Given genre ID is not valid!');
   }
 
   const genre = await Genre.findByIdAndRemove(req.params.id);
 
   if (!genre)
-    return res.status(404).send("The genre with given ID was not found");
+    return res.status(404).send('The genre with given ID was not found');
   res.send(genre);
 });
 
