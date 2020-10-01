@@ -1,31 +1,9 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
-const Joi = require('@hapi/joi');
+const { Customer, validate } = require('../models/customer');
 
 const { func } = require('@hapi/joi');
-
-const Customer = mongoose.model(
-  'Customer',
-  new mongoose.Schema({
-    isGold: {
-      type: Boolean,
-      default: false,
-    },
-    name: {
-      type: String,
-      required: true,
-      minlength: 3,
-      maxlength: 100,
-    },
-    phone: {
-      type: String,
-      minlength: 6,
-      maxlength: 50,
-      required: true,
-    },
-  })
-);
 
 // API: Get all customers
 router.get('/', async (req, res) => {
@@ -48,7 +26,7 @@ router.get('/:id', async (req, res) => {
 
 // API: Add new customer (POST)
 router.post('/', async (req, res) => {
-  const { error } = validateCustomer(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   let customer = new Customer({
@@ -71,7 +49,7 @@ router.put('/:id', async (req, res) => {
     return res.status(400).send('Given customer ID is not valid!');
   }
 
-  const { error } = validateCustomer(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   const customer = await Customer.findByIdAndUpdate(
@@ -102,16 +80,5 @@ router.delete('/:id', async (req, res) => {
     return res.status(404).send('The customer with given ID was not found');
   res.send(customer);
 });
-
-// Customer input validation for inserting new customer to DB.
-function validateCustomer(customer) {
-  const JoiSchema = Joi.object({
-    isGold: Joi.boolean(),
-    name: Joi.string().min(3).max(100).required(),
-    phone: Joi.string().min(6).max(50).required(),
-  }).options({ abortEarly: false });
-
-  return JoiSchema.validate(customer);
-}
 
 module.exports = router;
