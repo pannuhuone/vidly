@@ -21,7 +21,7 @@ const Customer = mongoose.model(
     phone: {
       type: String,
       minlength: 6,
-      maxlength: 12,
+      maxlength: 50,
       required: true,
     },
   })
@@ -107,8 +107,8 @@ router.delete('/:id', async (req, res) => {
 function validateCustomer(customer) {
   const JoiSchema = Joi.object({
     isGold: Joi.boolean(),
-    name: Joi.string().min(3).required(),
-    phone: Joi.string().min(6).max(12).required(),
+    name: Joi.string().min(3).max(100).required(),
+    phone: Joi.string().min(6).max(50).required(),
   }).options({ abortEarly: false });
 
   return JoiSchema.validate(customer);
