@@ -3,8 +3,6 @@ const express = require('express');
 const router = express.Router();
 const { Customer, validate } = require('../models/customer');
 
-const { func } = require('@hapi/joi');
-
 // API: Get all customers
 router.get('/', async (req, res) => {
   const customers = await Customer.find().sort('name');

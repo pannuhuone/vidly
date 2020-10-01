@@ -1,21 +1,7 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
-const Joi = require('@hapi/joi');
-
-const { func } = require('@hapi/joi');
-
-const Genre = mongoose.model(
-  'Genre',
-  new mongoose.Schema({
-    name: {
-      type: String,
-      required: true,
-      minlength: 3,
-      maxlength: 50,
-    },
-  })
-);
+const { Genre, validate } = require('../models/genre');
 
 // API: Get all genres
 router.get('/', async (req, res) => {
@@ -37,7 +23,7 @@ router.get('/:id', async (req, res) => {
 
 // API: Add new genre (POST)
 router.post('/', async (req, res) => {
-  const { error } = validateGenre(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   let genre = new Genre({ name: req.body.name });
@@ -56,7 +42,7 @@ router.put('/:id', async (req, res) => {
     return res.status(400).send('Given genre ID is not valid!');
   }
 
-  const { error } = validateGenre(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   const genre = await Genre.findByIdAndUpdate(
@@ -83,14 +69,5 @@ router.delete('/:id', async (req, res) => {
     return res.status(404).send('The genre with given ID was not found');
   res.send(genre);
 });
-
-// Genre input validation for inserting new genre to DB.
-function validateGenre(genre) {
-  const JoiSchema = Joi.object({
-    name: Joi.string().min(3).required(),
-  }).options({ abortEarly: false });
-
-  return JoiSchema.validate(genre);
-}
 
 module.exports = router;
