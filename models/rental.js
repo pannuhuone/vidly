@@ -4,33 +4,79 @@ const { movieSchema } = require('./movie');
 const { customerSchema } = require('./customer');
 
 const Rental = mongoose.model(
-  'Rentals',
+  'Rental',
   new mongoose.Schema({
-    movie: {
-      type: movieSchema,
-      required: true,
-    },
     customer: {
-      type: customerSchema,
+      type: new mongoose.Schema({
+        name: {
+          type: String,
+          required: true,
+          minlength: 5,
+          maxlength: 50,
+        },
+        isGold: {
+          type: Boolean,
+          default: false,
+        },
+        phone: {
+          type: String,
+          required: true,
+          minlength: 5,
+          maxlength: 50,
+        },
+      }),
       required: true,
     },
-    rentalDate: {
-      type: Date,
-      default: Date.now(),
+    movie: {
+      type: new mongoose.Schema({
+        title: {
+          type: String,
+          required: true,
+          trim: true,
+          minlength: 2,
+          maxlength: 100,
+        },
+        dailyRentalRate: {
+          type: Number,
+          required: true,
+          min: 0,
+          max: 255,
+        },
+      }),
       required: true,
+    },
+    dateOut: {
+      type: Date,
+      required: true,
+      default: Date.now,
+    },
+    dateReturned: {
+      type: Date,
+    },
+    rentalFee: {
+      type: Number,
+      min: 0,
     },
   })
 );
 
+function validateRental(rental) {
+  const schema = {
+    customerId: Joi.string().required(),
+    movieId: Joi.string().required(),
+  };
+
+  return Joi.validate(rental, schema);
+}
+
 // Movie input validation for inserting new movie to DB.
-function validateRental(movie) {
+function validateRental(rental) {
   const JoiSchema = Joi.object({
-    movie: Joi.string().required(), // What client will provide to API!
-    customer: Joi.string().required(), // What client will provide to API!
-    rentalDate: Joi.date(),
+    movieId: Joi.string().required(), // What client will provide to API!
+    customerId: Joi.string().required(), // What client will provide to API!
   }).options({ abortEarly: false });
 
-  return JoiSchema.validate(movie);
+  return JoiSchema.validate(rental);
 }
 
 exports.Rental = Rental;

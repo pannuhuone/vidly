@@ -32,6 +32,7 @@ const Movie = mongoose.model('Movies', movieSchema);
 
 // Movie input validation for inserting new movie to DB.
 function validateMovie(movie) {
+  // console.log('movie schema validator');
   const JoiSchema = Joi.object({
     title: Joi.string().min(2).max(100).required(),
     genreId: Joi.string().required(), // What client will provide to API!
