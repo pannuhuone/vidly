@@ -11,14 +11,14 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String,
     minlength: 6,
-    maxlength: 50,
+    maxlength: 255,
     required: true,
     unique: true,
   },
   password: {
     type: String,
     minlength: 6,
-    maxlength: 50,
+    maxlength: 1024,
     required: true,
   },
 });
@@ -29,11 +29,11 @@ const User = mongoose.model('User', userSchema);
 function validateUser(user) {
   const JoiSchema = Joi.object({
     name: Joi.string().min(3).max(100).required(),
-    email: Joi.string().min(6).max(50).required(),
-    password: Joi.string().min(6).max(50).required(),
+    email: Joi.string().min(6).max(50).required().email(),
+    password: Joi.string().min(6).max(1024).required(),
   }).options({ abortEarly: false });
 
-  return JoiSchema.validate(user);
+  return JoiSchema.validate(user, schema);
 }
 
 exports.User = User;
