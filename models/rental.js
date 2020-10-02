@@ -1,8 +1,5 @@
 const mongoose = require('mongoose');
 const Joi = require('@hapi/joi');
-Joi.objectId = require('joi-objectid')(Joi);
-const { movieSchema } = require('./movie');
-const { customerSchema } = require('./customer');
 
 const Rental = mongoose.model(
   'Rental',
