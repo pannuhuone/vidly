@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const express = require('express');
+const auth = require('../middleware/auth');
 const router = express.Router();
 const { Customer, validate } = require('../models/customer');
 
@@ -23,7 +24,7 @@ router.get('/:id', async (req, res) => {
 });
 
 // API: Add new customer (POST)
-router.post('/', async (req, res) => {
+router.post('/', auth, async (req, res) => {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
@@ -42,7 +43,7 @@ router.post('/', async (req, res) => {
 });
 
 // API: Change one customer (PUT)
-router.put('/:id', async (req, res) => {
+router.put('/:id', auth, async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
     return res.status(400).send('Given customer ID is not valid!');
   }
@@ -67,7 +68,7 @@ router.put('/:id', async (req, res) => {
 });
 
 // API: Delete one customer (DELETE)
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', auth, async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
     return res.status(400).send('Given customer ID is not valid!');
   }
