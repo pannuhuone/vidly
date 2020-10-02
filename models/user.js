@@ -23,17 +23,17 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-const Customer = mongoose.model('Customer', userSchema);
+const User = mongoose.model('User', userSchema);
 
 // Customer input validation for inserting new customer to DB.
-function validateUser(customer) {
+function validateUser(user) {
   const JoiSchema = Joi.object({
-    name: Joi.string().min(3).max(100).required().unique(),
+    name: Joi.string().min(3).max(100).required(),
     email: Joi.string().min(6).max(50).required(),
     password: Joi.string().min(6).max(50).required(),
   }).options({ abortEarly: false });
 
-  return JoiSchema.validate(customer);
+  return JoiSchema.validate(user);
 }
 
 exports.User = User;
