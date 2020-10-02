@@ -1,9 +1,15 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const bcrypt = require('bcrypt');
+const auth = require('../middleware/auth');
 const router = express.Router();
 const _ = require('lodash');
 const { User, validate } = require('../models/user');
+
+router.get('/me', auth, async (req, res) => {
+  const user = await User.findById(req.user._id).select('-password');
+  res.send(user);
+});
 
 // API: Add new user (POST)
 router.post('/', async (req, res) => {
