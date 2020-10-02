@@ -35,7 +35,7 @@ function validateMovie(movie) {
   // console.log('movie schema validator');
   const JoiSchema = Joi.object({
     title: Joi.string().min(2).max(100).required(),
-    genreId: Joi.string().required(), // What client will provide to API!
+    genreId: Joi.objectId().required(), // What client will provide to API!
     numberInStock: Joi.number().min(0),
     dailyRentalRate: Joi.number().min(0),
   }).options({ abortEarly: false });
