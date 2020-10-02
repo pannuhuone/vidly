@@ -4,6 +4,9 @@ const router = express.Router();
 const { Rental, validate } = require('../models/rental');
 const { Movie } = require('../models/movie');
 const { Customer } = require('../models/customer');
+const Fawn = require('fawn');
+
+Fawn.init(mongoose);
 
 // API: Get all rentals
 router.get('/', async (req, res) => {
@@ -14,7 +17,6 @@ router.get('/', async (req, res) => {
 // API: Add new rental (POST)
 router.post('/', async (req, res) => {
   const { error } = validate(req.body);
-  console.log('Error: ' + error);
   if (error) return res.status(400).send(error.details[0].message);
 
   const movie = await Movie.findById(req.body.movieId);
@@ -39,12 +41,27 @@ router.post('/', async (req, res) => {
       dailyRentalRate: movie.dailyRentalRate,
     },
   });
-  rental = await rental.save();
+  // rental = await rental.save();
 
-  movie.numberInStock--;
-  movie.save();
+  // movie.numberInStock--;
+  // movie.save();
 
-  res.send(rental);
+  try {
+    new Fawn.Task()
+      .save('rentals', rental)
+      .update(
+        'movies',
+        { _id: movie._id },
+        {
+          $inc: { numberInStock: -1 },
+        }
+      )
+      .run();
+
+    res.send(rental);
+  } catch (ex) {
+    res.status(500).send('Something failde.');
+  }
 });
 
 module.exports = router;
