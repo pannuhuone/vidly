@@ -5,6 +5,7 @@ const app = express();
 const genres = require('./routes/genres');
 const customers = require('./routes/customers');
 const movies = require('./routes/movies');
+const rentals = require('./routes/rentals');
 
 if (app.get('env') === 'development') {
   app.use(morgan('tiny'));
@@ -26,6 +27,7 @@ app.use(express.json());
 app.use('/api/genres', genres);
 app.use('/api/customers', customers);
 app.use('/api/movies', movies);
+app.use('/api/rentals', rentals);
 
 // Listening port
 const port = process.env.PORT || 3000;

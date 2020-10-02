@@ -1,27 +1,26 @@
 const mongoose = require('mongoose');
 const Joi = require('@hapi/joi');
 
-const Customer = mongoose.model(
-  'Customer',
-  new mongoose.Schema({
-    isGold: {
-      type: Boolean,
-      default: false,
-    },
-    name: {
-      type: String,
-      required: true,
-      minlength: 3,
-      maxlength: 100,
-    },
-    phone: {
-      type: String,
-      minlength: 6,
-      maxlength: 50,
-      required: true,
-    },
-  })
-);
+const customerSchema = new mongoose.Schema({
+  isGold: {
+    type: Boolean,
+    default: false,
+  },
+  name: {
+    type: String,
+    required: true,
+    minlength: 3,
+    maxlength: 100,
+  },
+  phone: {
+    type: String,
+    minlength: 6,
+    maxlength: 50,
+    required: true,
+  },
+});
+
+const Customer = mongoose.model('Customer', customerSchema);
 
 // Customer input validation for inserting new customer to DB.
 function validateCustomer(customer) {
@@ -35,4 +34,5 @@ function validateCustomer(customer) {
 }
 
 exports.Customer = Customer;
+exports.customerSchema = customerSchema;
 exports.validate = validateCustomer;
