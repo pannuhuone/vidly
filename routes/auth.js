@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const bcrypt = require('bcrypt');
 const router = express.Router();
+const Joi = require('@hapi/joi');
 const _ = require('lodash');
 const { User } = require('../models/user');
 
