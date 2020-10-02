@@ -1,3 +1,4 @@
+const error = require('./middleware/error');
 const morgan = require('morgan');
 const config = require('config');
 const mongoose = require('mongoose');
@@ -41,6 +42,7 @@ app.use('/api/movies', movies);
 app.use('/api/rentals', rentals);
 app.use('/api/users', users);
 app.use('/api/auth', auth);
+app.use(error);
 
 // Listening port
 const port = process.env.PORT || 3000;
