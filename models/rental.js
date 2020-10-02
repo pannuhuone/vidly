@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Joi = require('@hapi/joi');
+Joi.objectId = require('joi-objectid')(Joi);
 const { movieSchema } = require('./movie');
 const { customerSchema } = require('./customer');
 
@@ -72,8 +73,8 @@ function validateRental(rental) {
 // Movie input validation for inserting new movie to DB.
 function validateRental(rental) {
   const JoiSchema = Joi.object({
-    movieId: Joi.string().required(), // What client will provide to API!
-    customerId: Joi.string().required(), // What client will provide to API!
+    movieId: Joi.objectId().required(), // What client will provide to API!
+    customerId: Joi.objectId().required(), // What client will provide to API!
   }).options({ abortEarly: false });
 
   return JoiSchema.validate(rental);
