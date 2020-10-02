@@ -1,3 +1,4 @@
+require('express-async-errors');
 const error = require('./middleware/error');
 const morgan = require('morgan');
 const config = require('config');

@@ -2,19 +2,15 @@ const mongoose = require('mongoose');
 const express = require('express');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
-const asyncMiddleware = require('../middleware/async');
 const router = express.Router();
 const { Genre, validate } = require('../models/genre');
 const { rest } = require('lodash');
 
 // API: Get all genres
-router.get(
-  '/',
-  asyncMiddleware(async (req, res) => {
-    const genres = await Genre.find().sort('name');
-    res.send(genres);
-  })
-);
+router.get('/', async (req, res) => {
+  const genres = await Genre.find().sort('name');
+  res.send(genres);
+});
 
 // API: Get one genre
 // router.get('/:id', async (req, res) => {
@@ -29,23 +25,19 @@ router.get(
 // });
 
 // API: Add new genre (POST)
-router.post(
-  '/',
-  auth,
-  asyncMiddleware(async (req, res) => {
-    const { error } = validate(req.body);
-    if (error) return res.status(400).send(error.details[0].message);
+router.post('/', auth, async (req, res) => {
+  const { error } = validate(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
 
-    const genre = new Genre({ name: req.body.name });
-    try {
-      await genre.save();
-    } catch (ex) {
-      for (field in ex.errors) console.log(ex.errors[field].message);
-    }
+  const genre = new Genre({ name: req.body.name });
+  try {
+    await genre.save();
+  } catch (ex) {
+    for (field in ex.errors) console.log(ex.errors[field].message);
+  }
 
-    res.send(genre);
-  })
-);
+  res.send(genre);
+});
 
 // API: Change one genre (PUT)
 router.put('/:id', auth, async (req, res) => {
