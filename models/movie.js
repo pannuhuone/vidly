@@ -12,6 +12,7 @@ const Movie = mongoose.model(
       maxlength: 100,
     },
     genre: {
+      // What will be put to DB!
       type: genreSchema,
       required: true,
     },
@@ -34,7 +35,7 @@ const Movie = mongoose.model(
 function validateMovie(movie) {
   const JoiSchema = Joi.object({
     title: Joi.string().min(2).max(100).required(),
-    genreId: Joi.string().required(),
+    genreId: Joi.string().required(), // What client will provide to API!
     numberInStock: Joi.number().min(0),
     dailyRentalRate: Joi.number().min(0),
   }).options({ abortEarly: false });
