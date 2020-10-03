@@ -1,6 +1,4 @@
 const winston = require('winston');
-const Joi = require('@hapi/joi');
-Joi.objectId = require('joi-objectid')(Joi);
 const express = require('express');
 const app = express();
 
@@ -8,6 +6,7 @@ require('./startup/logging')(app);
 require('./startup/routes')(app);
 require('./startup/database')();
 require('./startup/config')();
+require('./startup/validation');
 
 // Listening port
 const port = process.env.PORT || 3000;

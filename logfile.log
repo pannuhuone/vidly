@@ -66,3 +66,15 @@
 {"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:02:43.880Z"}
 {"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T20:02:43.883Z"}
 {"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T20:02:43.908Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:04:42.102Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T20:04:42.104Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T20:04:42.129Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:05:22.519Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T20:05:22.521Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T20:05:22.547Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:05:36.739Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T20:05:36.742Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T20:05:36.762Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:06:21.407Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T20:06:21.410Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T20:06:21.432Z"}
