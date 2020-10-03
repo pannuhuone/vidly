@@ -15,6 +15,13 @@ module.exports = function (app) {
   // });
 
   winston.exceptions.handle(
+    new winston.transports.Console({
+      format: winston.format.combine(
+        winston.format.prettyPrint(),
+        winston.format.colorize(),
+        winston.format.timestamp()
+      ),
+    }),
     new winston.transports.File({
       filename: 'exceptions.log',
       format: winston.format.combine(
