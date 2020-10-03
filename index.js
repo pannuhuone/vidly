@@ -1,5 +1,6 @@
 require('express-async-errors');
 const winston = require('winston');
+require('winston-mongodb');
 const error = require('./middleware/error');
 const morgan = require('morgan');
 const config = require('config');
@@ -15,8 +16,11 @@ const rentals = require('./routes/rentals');
 const users = require('./routes/users');
 const auth = require('./routes/auth');
 
-// winston.add(winston.transports.File, { filename: 'logfile.log' });
-// winston.add(new winston.transports.File({ filename: 'logfile.log' }));
+process.on('uncaughtException', (ex) => {
+  console.log('WE GOT AN UNCAUGHT EXCEPTION!');
+  winston.error(ex.message, ex);
+});
+
 winston.add(
   new winston.transports.Console({
     format: winston.format.combine(
@@ -35,6 +39,19 @@ winston.add(
     ),
   })
 );
+
+// winston.add(
+//   new winston.transports.MongoDB({
+//     db: 'mongodb://192.168.1.57:27117/vidly',
+//     options: {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//     },
+//     format: winston.format.combine(winston.format.metadata()),
+//   })
+// );
+
+// throw new Error('Something failed during startup!');
 
 if (!config.get('jwtPrivateKey')) {
   console.error('FATAL ERROR: jwtPrivateKey is not defined!');
