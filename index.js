@@ -3,22 +3,33 @@ const winston = require('winston');
 require('winston-mongodb');
 const morgan = require('morgan');
 const config = require('config');
-const mongoose = require('mongoose');
 const Joi = require('@hapi/joi');
 Joi.objectId = require('joi-objectid')(Joi);
 const express = require('express');
 const app = express();
 
 require('./startup/routes')(app);
+require('./startup/database')();
 
-process.on('uncaughtException', (ex) => {
-  winston.error(ex.message, ex);
-  process.exit(1);
-});
+// process.on('uncaughtException', (ex) => {
+//   winston.error(ex.message, ex);
+//   process.exit(1);
+// });
+
+winston.exceptions.handle(
+  new winston.transports.File({
+    filename: 'exceptions.log',
+    format: winston.format.combine(
+      winston.format.timestamp(),
+      winston.format.json()
+    ),
+  })
+);
 
 process.on('unhandledRejection', (ex) => {
-  winston.error(ex.message, ex);
-  process.exit(1);
+  // winston.error(ex.message, ex);
+  // process.exit(1);
+  throw ex;
 });
 
 winston.add(
@@ -65,22 +76,9 @@ if (!config.get('jwtPrivateKey')) {
 
 if (app.get('env') === 'development') {
   app.use(morgan('tiny'));
-  console.log('Morgan enabled...');
+  winston.info('Morgan enabled...');
 }
-
-// Connect to MongoDB
-mongoose
-  .connect('mongodb://192.168.1.57:27117/vidly', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false,
-    useCreateIndex: true,
-  })
-  .then(() => console.log('Connected to MongoDB...'))
-  .catch((err) => console.log('Could not connect to MongoDB...', err));
-
-// Middlewares
 
 // Listening port
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Listening on port ${port}...`));
+app.listen(port, () => winston.info(`Listening on port ${port}...`));

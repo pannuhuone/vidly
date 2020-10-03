@@ -1,2 +1,25 @@
 {"level":"error","message":"Something failed during startup! Something failed during startup!","stack":"Error: Something failed during startup!\n    at Object.<anonymous> (D:\\code\\Node\\complete_node_course\\vidly\\index.js:54:7)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2020-10-03T18:08:13.822Z"}
 {"level":"error","message":"Something failed miserably! Something failed miserably!","stack":"Error: Something failed miserably!\n    at Object.<anonymous> (D:\\code\\Node\\complete_node_course\\vidly\\index.js:64:26)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2020-10-03T18:14:52.590Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T19:30:49.987Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T19:32:23.263Z"}
+{"message":"connect ECONNREFUSED 192.168.1.57:27117 connect ECONNREFUSED 192.168.1.57:27117","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":8},"level":"error","stack":"MongooseServerSelectionError: connect ECONNREFUSED 192.168.1.57:27117\n    at Function.Model.$wrapCallback (D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\model.js:4895:32)\n    at D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\query.js:4363:21\n    at D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:5\n    at Promise._execute (D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\fawn\\node_modules\\bluebird\\js\\release\\debuggability.js:300:9)\n    at Promise._resolveFromExecutor (D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\fawn\\node_modules\\bluebird\\js\\release\\promise.js:483:18)\n    at new Promise (D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\fawn\\node_modules\\bluebird\\js\\release\\promise.js:79:10)\n    at promiseOrCallback (D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:30:10)\n    at model.Query.exec (D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\query.js:4362:10)\n    at model.Query.Query.then (D:\\code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","timestamp":"2020-10-03T19:33:20.643Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T19:33:53.786Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T19:38:06.936Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:38:42.236Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:38:42.240Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T19:38:42.258Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:39:00.323Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:39:00.328Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:39:25.107Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:39:25.112Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:41:08.318Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:41:08.323Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:42:29.083Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:42:29.087Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:44:12.326Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:44:12.331Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:45:51.805Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:45:51.810Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:46:49.238Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:46:49.243Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T19:46:49.259Z"}
