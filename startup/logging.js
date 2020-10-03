@@ -1,8 +1,14 @@
 const winston = require('winston');
 require('winston-mongodb');
 require('express-async-errors');
+const morgan = require('morgan');
 
-module.exports = function () {
+module.exports = function (app) {
+  if (app.get('env') === 'development') {
+    app.use(morgan('tiny'));
+    winston.info('Morgan enabled...');
+  }
+
   // process.on('uncaughtException', (ex) => {
   //   winston.error(ex.message, ex);
   //   process.exit(1);

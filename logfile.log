@@ -62,3 +62,7 @@
 {"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T19:58:55.172Z"}
 {"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T19:58:55.177Z"}
 {"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T19:58:55.203Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:02:23.641Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:02:43.880Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T20:02:43.883Z"}
+{"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T20:02:43.908Z"}
