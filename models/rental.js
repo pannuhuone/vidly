@@ -58,14 +58,14 @@ const Rental = mongoose.model(
   })
 );
 
-function validateRental(rental) {
-  const schema = {
-    customerId: Joi.string().required(),
-    movieId: Joi.string().required(),
-  };
+// function validateRental(rental) {
+//   const schema = {
+//     customerId: Joi.string().required(),
+//     movieId: Joi.string().required(),
+//   };
 
-  return Joi.validate(rental, schema);
-}
+//   return Joi.validate(rental, schema);
+// }
 
 // Movie input validation for inserting new movie to DB.
 function validateRental(rental) {
