@@ -1,14 +1,16 @@
 const mongoose = require('mongoose');
 const winston = require('winston');
+const config = require('config');
 
 module.exports = function () {
   // Connect to MongoDB
+  const db = config.get('db');
   mongoose
-    .connect('mongodb://192.168.1.57:27117/vidly', {
+    .connect(db, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
       useCreateIndex: true,
     })
-    .then(() => winston.info('Connected to MongoDB...'));
+    .then(() => winston.info(`Connected to ${db}...`));
 };

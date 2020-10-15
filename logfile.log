@@ -90,3 +90,10 @@
 {"message":"Morgan enabled...","level":"info","timestamp":"2020-10-03T20:13:57.271Z"}
 {"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-03T20:13:57.274Z"}
 {"message":"Connected to MongoDB...","level":"info","timestamp":"2020-10-03T20:13:57.294Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-15T16:51:12.546Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly...","level":"info","timestamp":"2020-10-15T16:51:12.570Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-15T16:51:58.461Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly...","level":"info","timestamp":"2020-10-15T16:51:58.484Z"}
+{"message":"Morgan enabled...","level":"info","timestamp":"2020-10-15T16:52:39.107Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-15T16:52:39.110Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly...","level":"info","timestamp":"2020-10-15T16:52:39.130Z"}
