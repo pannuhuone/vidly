@@ -25,6 +25,7 @@
     "winston-mongodb": "^5.0.5"
   },
   "devDependencies": {
-    "jest": "^26.5.2"
+    "jest": "^26.5.2",
+    "supertest": "^5.0.0"
   }
 }
