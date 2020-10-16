@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
+const validateObjectId = require('../middleware/validateObjectId');
 const router = express.Router();
 const { Genre, validate } = require('../models/genre');
 const { rest } = require('lodash');
@@ -13,13 +14,10 @@ router.get('/', async (req, res) => {
 });
 
 // API: Get one genre
-router.get('/:id', async (req, res) => {
-  if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
-    return res.status(404).send('Invalid ID!');
-  }
-
+router.get('/:id', validateObjectId, async (req, res) => {
   const genre = await Genre.findById(req.params.id);
-  if (!genre) res.status(404).send('Invalid ID!');
+
+  if (!genre) res.status(404).send('The genre with give ID cannot be found.');
 
   res.send(genre);
 });

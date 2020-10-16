@@ -42,6 +42,12 @@ describe('/api/genres', () => {
       expect(res.status).toBe(404);
     })
 
+    it('should return 404 if id is valid but document with give id cannot be found', async () => {
+      const res = await request(server).get('/api/genres/5ee5315bafeddc665428bf89');
+
+      expect(res.status).toBe(404);
+    })
+
     // it('should return 400 if invalid id is used for getting one genre', async () => {
     //   await Genre.collection.insertMany([
     //     {name: 'genre1'},
