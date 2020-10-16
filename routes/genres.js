@@ -13,16 +13,16 @@ router.get('/', async (req, res) => {
 });
 
 // API: Get one genre
-// router.get('/:id', async (req, res) => {
-//   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
-//     return res.status(400).send('Given genre ID is not valid!');
-//   }
+router.get('/:id', async (req, res) => {
+  if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
+    return res.status(404).send('Invalid ID!');
+  }
 
-//   const genre = await Genre.findById(req.params.id);
-//   if (!genre) res.status(404).send('The genre with given ID was not found');
+  const genre = await Genre.findById(req.params.id);
+  if (!genre) res.status(404).send('Invalid ID!');
 
-//   res.send(genre);
-// });
+  res.send(genre);
+});
 
 // API: Add new genre (POST)
 router.post('/', auth, async (req, res) => {
