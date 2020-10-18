@@ -5,5 +5,4 @@
 # Other environment variables
 
 `NODE_ENV` - Settings up runtime environment (development|test|production)
-
 `PORT` - Setting up what port backend is listening to. Default is 3000.
