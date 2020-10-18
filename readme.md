@@ -8,4 +8,4 @@
 
 - When development is setup, Morgan logging will be used with tiny settings.
 
-  `PORT` - Setting up what port backend is listening to. Default is 3000.
+`PORT` - Setting up what port backend is listening to. Default is 3000.
