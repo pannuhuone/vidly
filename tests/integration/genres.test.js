@@ -111,4 +111,18 @@ describe('/api/genres', () => {
     });
   });
 
+  describe('PUT /:id', () => {
+    it.todo('should return 400 if invalid genre ID given');
+    it.todo('should return 400 if invalid genre information');
+    it.todo('should return 404 if given genre cannot be found');
+    it.todo('should save updated genre information');
+    it.todo('should return genre with updated data');
+  });
+
+  describe('DELETE /:id', () => {
+    it.todo('should return 400 if invalid genre ID given');
+    it.todo('should return 404 if given genre cannot be found');
+    it.todo('should return genre with updated data');
+  });
+
 });
