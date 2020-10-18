@@ -10,16 +10,16 @@ const { rest } = require('lodash');
 // API: Get all genres
 router.get('/', async (req, res) => {
   const genres = await Genre.find().sort('name');
-  res.send(genres);
+  return res.send(genres);
 });
 
 // API: Get one genre
 router.get('/:id', validateObjectId, async (req, res) => {
   const genre = await Genre.findById(req.params.id);
 
-  if (!genre) res.status(404).send('The genre with give ID cannot be found.');
+  if (!genre) return res.status(404).send('The genre with give ID cannot be found.');
 
-  res.send(genre);
+  return res.send(genre);
 });
 
 // API: Add new genre (POST)
