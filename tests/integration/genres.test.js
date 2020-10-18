@@ -1,3 +1,4 @@
+const mongoose= require('mongoose');
 const request = require('supertest');
 const {Genre} =require('../../models/genre');
 const {User} =require('../../models/user');
@@ -44,7 +45,8 @@ describe('/api/genres', () => {
     })
 
     it('should return 404 if id is valid but document with give id cannot be found', async () => {
-      const res = await request(server).get('/api/genres/5ee5315bafeddc665428bf89');
+      const id = mongoose.Types.ObjectId();
+      const res = await request(server).get('/api/genres/' + id);
 
       expect(res.status).toBe(404);
     })

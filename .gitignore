@@ -1,5 +1,6 @@
 node_modules/
-exceptions.log
-logfile.log
+coverage/
+*.log
 
 .env
+logfile.log
