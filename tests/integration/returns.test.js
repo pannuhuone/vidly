@@ -46,7 +46,7 @@ describe('/api/returns', () => {
   });
 
   // Return 401 if client is not logged in
-  it('should return 401 if client not logged in', async () => {
+  it('should return 401 if no token is provided', async () => {
     token = '';
     const res = await exec();
 
@@ -70,6 +70,13 @@ describe('/api/returns', () => {
   })
 
   // Return 404 if rental found this customer/movie
+  it('should return 404 if rental cannot be found for the customer/movie', async () => {
+    await Rental.deleteMany();
+    const res = await exec();
+
+    expect(res.status).toBe(404);
+  })
+
   // Return 400 if rental already processed
   // Return 200 if valid request
   // Set return date
