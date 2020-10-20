@@ -95,7 +95,17 @@ describe('/api/returns', () => {
   });
 
   // Set return date
-  // Calculate rental fee
+  it('should set the returnDate if input is valid', async () => {
+    const res = await exec();
+
+    const rentalInDb = await Rental.findById(rental._id);
+    const diff = new Date() - rentalInDb.dateReturned;
+    expect(res.status).toBe(200);
+    expect(rentalInDb).toHaveProperty('dateReturned');
+    expect(diff).toBeLessThan(10 * 1000);
+  });
+
+  // Calculate rental fee (numberOfDays * movie.dailyRentalRate)
   // Increase the stock
   // Return the rental
 });
