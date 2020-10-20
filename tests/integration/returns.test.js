@@ -50,7 +50,7 @@ describe('/api/returns', () => {
     const res = await exec();
 
     expect(res.status).toBe(401);
-  })
+  });
 
   // Return 400 if customerId in not provided
   it('should return 400 if customerId is not provided', async () => {
@@ -58,7 +58,7 @@ describe('/api/returns', () => {
     const res = await exec();
 
     expect(res.status).toBe(400);
-  })
+  });
 
   // Return 400 if movieId in not provided
   it('should return 400 if movieId is not provided', async () => {
@@ -66,7 +66,7 @@ describe('/api/returns', () => {
     const res = await exec();
 
     expect(res.status).toBe(400);
-  })
+  });
 
   // Return 404 if rental found this customer/movie
   it('should return 404 if rental cannot be found for the customer/movie', async () => {
@@ -74,7 +74,7 @@ describe('/api/returns', () => {
     const res = await exec();
 
     expect(res.status).toBe(404);
-  })
+  });
 
   // Return 400 if rental already processed
   it('should return 400 if rental already processed', async () => {
@@ -85,9 +85,15 @@ describe('/api/returns', () => {
     const res = await exec();
 
     expect(res.status).toBe(400);
-  })
+  });
 
   // Return 200 if valid request
+  it('should return 200 if valid request', async () => {
+    const res = await exec();
+
+    expect(res.status).toBe(200);
+  });
+
   // Set return date
   // Calculate rental fee
   // Increase the stock
