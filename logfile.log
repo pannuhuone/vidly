@@ -1016,3 +1016,190 @@
 {"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:45:28.519Z"}
 {"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:45:29.323Z"}
 {"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:45:29.344Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:45:30.095Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:45:30.195Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:52:48.905Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:52:48.968Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:52:49.557Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:52:49.588Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:52:59.914Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:52:59.973Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:53:01.085Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:53:01.109Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:53:02.343Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:53:02.435Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:54:55.660Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:54:56.455Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:54:57.905Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:54:57.931Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:54:58.530Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:54:58.562Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:57:37.428Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:57:37.667Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:57:38.760Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:57:38.846Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T16:57:40.386Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T16:57:40.446Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:04:39.428Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:04:39.695Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:21:3","timestamp":"2020-10-20T17:04:39.931Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:21:3","timestamp":"2020-10-20T17:04:39.980Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:21:3","timestamp":"2020-10-20T17:04:40.035Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:04:41.895Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:04:42.099Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:04:43.638Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:04:44.100Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:05:33.261Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:05:33.356Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:21:3","timestamp":"2020-10-20T17:05:33.599Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:21:3","timestamp":"2020-10-20T17:05:33.639Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:21:3","timestamp":"2020-10-20T17:05:33.687Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:05:34.427Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:05:36.071Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:05:36.988Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:05:37.013Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:06:54.868Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:06:54.975Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:23:3","timestamp":"2020-10-20T17:06:55.230Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:23:3","timestamp":"2020-10-20T17:06:55.289Z"}
+{"errors":{"rentalFee":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"rentalFee","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\" Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"","stack":"ValidationError: Rental validation failed: rentalFee: Cast to Number failed for value \"NaN\" at path \"rentalFee\"\n    at model.Object.<anonymous>.Document.invalidate (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at model.$set (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\document.js:1246:12)\n    at model.set [as rentalFee] (D:\\Code\\Node\\complete_node_course\\vidly\\node_modules\\mongoose\\lib\\helpers\\document\\compile.js:149:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:23:3","timestamp":"2020-10-20T17:06:55.348Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:06:57.223Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:06:58.575Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:07:01.839Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:07:02.529Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:07:40.263Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:07:42.103Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:07:43.495Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:07:43.878Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:07:45.240Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:07:45.761Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:08:33.168Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:08:33.910Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:08:35.898Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:08:35.994Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:08:37.479Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:08:37.520Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:09:09.099Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:09:09.237Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:09:11.191Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:09:11.278Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:09:14.261Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:09:18.442Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:10:29.142Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:10:29.338Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:10:29.911Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:10:29.945Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:10:30.904Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:10:30.927Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:10:33.522Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:10:33.556Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:10:34.027Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:10:34.049Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:10:34.736Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:10:34.754Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:11:02.990Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:11:03.137Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:11:03.719Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:11:03.754Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:11:04.482Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:11:04.505Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:13:36.244Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:13:37.576Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:13:38.143Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:13:38.179Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:13:38.926Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:13:38.952Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:13:41.859Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:13:41.918Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:13:42.453Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:13:42.486Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:13:43.184Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:13:43.210Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:20.705Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:20.787Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:21.358Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:21.390Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:22.110Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:22.130Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:24.942Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:24.975Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:25.436Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:25.461Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:26.170Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:26.188Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:52.936Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:53.028Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:53.559Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:53.598Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:15:54.319Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:15:54.338Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:16:15.843Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:16:15.921Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:16:16.481Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:16:16.515Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:16:17.250Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:16:17.274Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:16:49.397Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:16:49.456Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:16:50.022Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:16:50.049Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:16:50.777Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:16:50.796Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:17:04.716Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:17:04.768Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:17:05.308Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:17:05.338Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:17:06.064Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:17:06.105Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:18:31.218Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:18:31.297Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:18:31.895Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:18:31.940Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:18:32.722Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:18:32.743Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:22:57.813Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:22:57.890Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:22:58.481Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:22:58.511Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:22:59.250Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:22:59.272Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:24:59.474Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:24:59.541Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:00.312Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:00.344Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:01.081Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:01.100Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:08.704Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:08.771Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:09.327Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:09.354Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:10.081Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:10.099Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:17.010Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:17.037Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:17.756Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:17.780Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:25:18.264Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:25:18.286Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:37.308Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:37.361Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:38.152Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:38.176Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:38.825Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:38.857Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:49.063Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:49.115Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:49.868Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:49.913Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:50.505Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:50.536Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:56.476Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:56.506Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:57.255Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:57.276Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:31:57.866Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:31:57.894Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:32:26.105Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:32:26.151Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:32:26.935Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:32:26.974Z"}
