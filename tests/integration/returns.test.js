@@ -11,8 +11,8 @@ describe('/api/returns', () => {
   let rental;
   let token;
 
-  const exec = async () => {
-    return await request(server)
+  const exec = () => {
+    return request(server)
     .post('/api/returns')
     .set('x-auth-token', token)
     .send({ customerId, movieId });
@@ -45,6 +45,7 @@ describe('/api/returns', () => {
     await Rental.deleteMany();
   });
 
+  // Return 401 if client is not logged in
   it('should return 401 if client not logged in', async () => {
     token = '';
     const res = await exec();
@@ -52,10 +53,27 @@ describe('/api/returns', () => {
     expect(res.status).toBe(401);
   })
 
+  // Return 400 if customerId in not provided
   it('should return 400 if customerId is not provided', async () => {
     customerId = '';
     const res = await exec();
 
     expect(res.status).toBe(400);
   })
+
+  // Return 400 if movieId in not provided
+  it('should return 400 if movieId is not provided', async () => {
+    movieId = '';
+    const res = await exec();
+
+    expect(res.status).toBe(400);
+  })
+
+  // Return 404 if rental found this customer/movie
+  // Return 400 if rental already processed
+  // Return 200 if valid request
+  // Set return date
+  // Calculate rental fee
+  // Increase the stock
+  // Return the rental
 });
