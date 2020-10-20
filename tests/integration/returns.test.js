@@ -3,9 +3,8 @@ const {User} = require('../../models/user');
 const mongoose = require('mongoose');
 const request = require('supertest');
 
-let server;
-
 describe('/api/returns', () => {  
+  let server;
   let customerId;
   let movieId;
   let rental;
