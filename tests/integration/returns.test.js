@@ -33,7 +33,7 @@ describe('/api/returns', () => {
       movie: {
         _id: movieId,
         title: '12345',
-        dailyRentalRate: 2
+        dailyRentalRate: 2,
       }
     });
     await rental.save();
@@ -77,6 +77,16 @@ describe('/api/returns', () => {
   })
 
   // Return 400 if rental already processed
+  it('should return 400 if rental already processed', async () => {
+    // await Rental.updateOne({ 'movie._id': movieId }, { dateReturned: Date.now() });
+    rental.dateReturned = new Date();
+    await rental.save();
+
+    const res = await exec();
+
+    expect(res.status).toBe(400);
+  })
+
   // Return 200 if valid request
   // Set return date
   // Calculate rental fee
