@@ -21,7 +21,6 @@ router.post('/', auth, async (req, res) => {
   const rentalDays = moment().diff(rental.dateOut, 'days')
   rental.rentalFee = rentalDays *rental.movie.dailyRentalRate;
   await rental.save();
-
   // -- Own solution for calculating rentalFee --
   // const oneDay = 24 * 60 * 60 * 1000;
   // var diffDays = Math.round(Math.abs((rental.dateOut.getTime() - rental.dateReturned.getTime()) / (oneDay)));
@@ -32,7 +31,6 @@ router.post('/', auth, async (req, res) => {
   await Movie.update({ _id: rental.movie._id}, {
     $inc: { numberInStock: 1 }
   });
-
   // -- Own solution for increasing the movie stock --
   // const movie = await Movie.findOne({
   //   '_id': req.body.movieId
@@ -40,7 +38,7 @@ router.post('/', auth, async (req, res) => {
   // movie.numberInStock++;
   // await movie.save();
 
-  res.status(200).send();
+  res.status(200).send(rental);
 });
 
 module.exports = router;

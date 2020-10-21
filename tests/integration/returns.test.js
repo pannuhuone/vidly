@@ -139,7 +139,21 @@ describe('/api/returns', () => {
 
     const movieInDb = await Movie.findById(movieId);
     expect(movieInDb.numberInStock).toBe(movie.numberInStock + 1);
-  })
+  });
 
   // Return the rental
+  it('should return the rental if input is valid', async () => {
+    const res = await exec();
+
+    // const rentalInDb = await Rental.findById(rental._id);
+
+    // expect(res.body).toHaveProperty('customer');
+    // expect(res.body).toHaveProperty('movie');
+    // expect(res.body).toHaveProperty('dateReturned');
+    // expect(res.body).toHaveProperty('rentalFee');
+    // expect(res.body).toHaveProperty('dateOut');
+
+    expect(Object.keys(res.body)).toEqual(
+      expect.arrayContaining(['dateOut', 'dateReturned', 'rentalFee', 'movie', 'customer']));
+  });
 });
