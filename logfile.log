@@ -1203,3 +1203,201 @@
 {"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:32:26.151Z"}
 {"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:32:26.935Z"}
 {"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:32:26.974Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-20T17:32:27.669Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-20T17:32:27.699Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:28:09.719Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:28:11.060Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:28:11.991Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:28:12.020Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:28:12.666Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:28:12.693Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:28:15.571Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:28:15.620Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:28:16.344Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:28:16.368Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:28:17.000Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:28:17.024Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:31:23.961Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:31:24.025Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:31:24.820Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:31:24.840Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:31:25.480Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:31:25.517Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:41:36.475Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:41:36.555Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:41:37.412Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:41:37.442Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:41:38.063Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:41:38.106Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:42:12.851Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:42:12.996Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:42:13.845Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:42:13.865Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:42:14.482Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:42:14.511Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:43:42.243Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:43:42.295Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:43:43.206Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:43:43.324Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:43:43.943Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:43:43.978Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:51:42.534Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:51:42.583Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:51:42.858Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:51:42.909Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:51:42.967Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:51:43.014Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:51:43.465Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:51:43.488Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:51:43.993Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:51:44.019Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:52:59.114Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:52:59.179Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:52:59.440Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:52:59.492Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:52:59.553Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:52:59.605Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:00.069Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:00.103Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:00.736Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:00.765Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:28.406Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:28.454Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:28.753Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:28.805Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:28.866Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:28.916Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:29.385Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:29.412Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:30.044Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:30.073Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:39.118Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:39.150Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:39.381Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:39.440Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:39.501Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:39.553Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:48.467Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:48.519Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:48.816Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:48.862Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:48.921Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:53:48.973Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:49.459Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:49.482Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:53:50.132Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:53:50.159Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:54:41.048Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:54:41.119Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:54:41.383Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:54:41.429Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:54:41.489Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:54:41.542Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:54:42.081Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:54:42.101Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:54:42.697Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:54:42.720Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:55:43.497Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:55:43.573Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:55:43.838Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:55:43.888Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:55:43.947Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:36:3","timestamp":"2020-10-21T04:55:43.995Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:55:44.467Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:55:44.499Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:55:45.124Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:55:45.152Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:56:58.817Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:56:58.892Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:56:59.169Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:56:59.221Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:56:59.283Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:56:59.336Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:56:59.808Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:56:59.829Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:57:00.469Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:57:00.499Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:58:33.226Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:58:33.286Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:58:33.573Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:58:33.629Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:58:33.706Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:58:33.764Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:58:34.254Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:58:34.279Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:58:34.883Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:58:34.914Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:59:51.460Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:59:51.520Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:59:51.808Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:59:51.864Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:59:51.935Z"}
+{"level":"error","message":"Cannot read property 'numberInStock' of null Cannot read property 'numberInStock' of null","stack":"TypeError: Cannot read property 'numberInStock' of null\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:37:3","timestamp":"2020-10-21T04:59:51.989Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:59:52.480Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:59:52.502Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T04:59:53.127Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T04:59:53.151Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:03:31.147Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:03:31.208Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:03:32.153Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:03:32.192Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:03:32.873Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:03:32.902Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:03:49.984Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:03:50.025Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:03:51.120Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:03:51.148Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:03:51.782Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:03:51.818Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:04:09.642Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:04:09.681Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:04:10.642Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:04:10.662Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:04:11.274Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:04:11.319Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:04:16.924Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:04:16.963Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:04:17.849Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:04:17.874Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:04:18.472Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:04:18.500Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:07:01.402Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:07:01.488Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:07:02.453Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:07:02.491Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:07:03.142Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:07:03.181Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:07:54.369Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:07:54.498Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:07:55.452Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:07:55.478Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:07:56.105Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:07:56.136Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:08:50.346Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:08:50.403Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:08:51.362Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:08:51.383Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:08:52.047Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:08:52.077Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:09:00.573Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:09:00.618Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:09:01.532Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:09:01.561Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:09:02.222Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:09:02.252Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:09:51.001Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:09:51.076Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:09:52.074Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:09:52.138Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:09:52.796Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:09:52.821Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:12:18.374Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:12:18.450Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:12:19.457Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:12:19.479Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:12:20.121Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:12:20.151Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:12:28.297Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:12:28.330Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T05:12:29.237Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T05:12:29.256Z"}
