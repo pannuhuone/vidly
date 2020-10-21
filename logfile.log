@@ -1729,3 +1729,26 @@
 {"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:25:35.561Z"}
 {"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:25:36.586Z"}
 {"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:25:36.615Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:25:37.247Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:25:37.279Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:31:25.159Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:31:25.224Z"}
+{"level":"error","message":"moment is not defined moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (D:\\Code\\Node\\complete_node_course\\vidly\\models\\rental.js:69:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:19:3","timestamp":"2020-10-21T17:31:25.625Z"}
+{"level":"error","message":"moment is not defined moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (D:\\Code\\Node\\complete_node_course\\vidly\\models\\rental.js:69:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:19:3","timestamp":"2020-10-21T17:31:25.671Z"}
+{"level":"error","message":"moment is not defined moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (D:\\Code\\Node\\complete_node_course\\vidly\\models\\rental.js:69:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:19:3","timestamp":"2020-10-21T17:31:25.725Z"}
+{"level":"error","message":"moment is not defined moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (D:\\Code\\Node\\complete_node_course\\vidly\\models\\rental.js:69:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:19:3","timestamp":"2020-10-21T17:31:25.776Z"}
+{"level":"error","message":"moment is not defined moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (D:\\Code\\Node\\complete_node_course\\vidly\\models\\rental.js:69:19)\n    at D:\\Code\\Node\\complete_node_course\\vidly\\routes\\returns.js:19:3","timestamp":"2020-10-21T17:31:25.941Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:31:26.444Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:31:26.473Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:31:27.104Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:31:27.139Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:32:16.467Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:32:16.702Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:32:17.816Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:32:17.836Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:32:18.471Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:32:18.495Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:33:15.475Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:33:15.535Z"}
+{"message":"Listening on port 3000...","level":"info","timestamp":"2020-10-21T17:33:16.710Z"}
+{"message":"Connected to mongodb://192.168.1.57:27117/vidly_tests...","level":"info","timestamp":"2020-10-21T17:33:16.875Z"}
