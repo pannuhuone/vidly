@@ -4,11 +4,13 @@ const { Movie } = require('../models/movie');
 const router = express.Router();
 const auth = require('../middleware/auth');
 const moment = require('moment');
+const Joi = require('@hapi/joi');
+Joi.objectId = require('joi-objectid')(Joi)
 
 // POST /api/returns {customerId, movieId}
 router.post('/', auth, async (req, res) => {
-  if (!req.body.customerId) return res.status(400).send('customerId not provided');
-  if (!req.body.movieId) return res.status(400).send('movieId not provided');
+  const { error } = validateReturn(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
 
   const rental = await Rental.findOne({
     'customer._id': req.body.customerId, 
@@ -40,5 +42,14 @@ router.post('/', auth, async (req, res) => {
 
   res.status(200).send(rental);
 });
+
+function validateReturn(req) {
+  const JoiSchema = Joi.object({
+    customerId: Joi.objectId().required(),
+    movieId: Joi.objectId().required(),
+  }).options({ abortEarly: false });
+
+  return JoiSchema.validate(req);
+}
 
 module.exports = router;
